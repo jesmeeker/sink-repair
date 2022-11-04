@@ -1,13 +1,55 @@
 {
-    "plumbers": [],
-    "completions": [],
-    "requests": [
-        {
-            "id": 1,
-            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
-            "address": "34445 Bianka Ports",
-            "budget": 400,
-            "neededBy": "2021-08-27"
-        }
-    ]
+  "plumbers": [],
+  "completions": [],
+  "requests": [
+    {
+      "id": 1,
+      "description": "Leaky pipe under kitchen sink.",
+      "address": "34445 Bianka Ports",
+      "budget": 400,
+      "neededBy": "2022-11-30"
+    },
+    {
+      "id": 2,
+      "description": "Faucet change in owner's suite.",
+      "address": "609 Youngblood Court",
+      "budget": 650,
+      "neededBy": "2022-12-05"
+    },
+    {
+      "id": 3,
+      "description": "Toilet install.",
+      "address": "20 Page Terrace",
+      "budget": 200,
+      "neededBy": "2022-12-10"
+    },
+    {
+      "description": "Leaky Faucet",
+      "address": "60 Maywood St",
+      "budget": "400",
+      "neededBy": "2022-11-30",
+      "id": 4
+    },
+    {
+      "description": "Clogged sink in powder room.",
+      "address": "2098 Old Hickory Blvd",
+      "budget": "200",
+      "neededBy": "2022-11-15",
+      "id": 5
+    },
+    {
+      "description": "Clogged sink in powder room",
+      "address": "4902 Old Hickory Blvd",
+      "budget": "200",
+      "neededBy": "2022-11-08",
+      "id": 6
+    },
+    {
+      "description": "Pipe Burst",
+      "address": "22 Union Ave",
+      "budget": "500",
+      "neededBy": "2023-01-22",
+      "id": 7
+    }
+  ]
 }
