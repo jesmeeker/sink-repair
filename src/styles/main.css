@@ -16,8 +16,46 @@ textarea {
 	justify-content: center;
 }
 
+ul {
+	list-style: none
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
 }
 
+.serviceRequests {
+	width: 200px
+}
+	/* flex-direction: column;
+    flex-wrap: nowrap;
+	align-content: right; */
+	/* justify-items: center; } */
+
+
+.requests { 
+	border: 1px dotted black;
+	display: flex;
+	height: 1.5rem;
+	width: 400px;
+	margin: .5rem;
+	padding: .5rem;
+
+}
+
+.request__description {
+	justify-content: center;
+	width: 250px;
+}
+
+.request__delete {
+	margin-right: .5rem;
+	/* padding: .5rem; */
+    background-color: rgb(115, 185, 206);
+    color: white;
+    font-size: 12px;
+    border: 1px line black;
+    border-radius: .3rem;
+    border-style:ridge;
+}

@@ -1,27 +1,55 @@
 {
-  "plumbers": [],
-  "completions": [],
-  "requests": [
+  "plumbers": [
     {
       "id": 1,
-      "description": "Leaky pipe under kitchen sink.",
-      "address": "34445 Bianka Ports",
-      "budget": 400,
-      "neededBy": "2022-11-30"
+      "name": "Maude"
     },
     {
       "id": 2,
-      "description": "Faucet change in owner's suite.",
-      "address": "609 Youngblood Court",
-      "budget": 650,
-      "neededBy": "2022-12-05"
+      "name": "Merle"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": 1,
+      "plumberId": 1,
+      "date_created": "7-101-2022 ",
+      "id": 1
     },
     {
-      "id": 3,
-      "description": "Toilet install.",
+      "requestId": 2,
+      "plumberId": 2,
+      "date_created": "7-101-2022 ",
+      "id": 2
+    },
+    {
+      "requestId": 1,
+      "plumberId": 2,
+      "date_created": "7-101-2022 ",
+      "id": 3
+    }
+  ],
+  "requests": [
+    {
+      "description": "Broken Pipe.",
+      "address": "2609 Youngblood",
+      "budget": "450",
+      "neededBy": "2022-11-15",
+      "id": 1
+    },
+    {
+      "description": "Clogged washer drain.",
       "address": "20 Page Terrace",
-      "budget": 200,
-      "neededBy": "2022-12-10"
+      "budget": "300",
+      "neededBy": "2022-11-19",
+      "id": 2
+    },
+    {
+      "description": "Toilet install.",
+      "address": "987645 Big Boulevard",
+      "budget": "150",
+      "neededBy": "2022-11-29",
+      "id": 3
     },
     {
       "description": "Leaky Faucet",
@@ -29,27 +57,6 @@
       "budget": "400",
       "neededBy": "2022-11-30",
       "id": 4
-    },
-    {
-      "description": "Clogged sink in powder room.",
-      "address": "2098 Old Hickory Blvd",
-      "budget": "200",
-      "neededBy": "2022-11-15",
-      "id": 5
-    },
-    {
-      "description": "Clogged sink in powder room",
-      "address": "4902 Old Hickory Blvd",
-      "budget": "200",
-      "neededBy": "2022-11-08",
-      "id": 6
-    },
-    {
-      "description": "Pipe Burst",
-      "address": "22 Union Ave",
-      "budget": "500",
-      "neededBy": "2023-01-22",
-      "id": 7
     }
   ]
 }
