@@ -13,20 +13,14 @@
     {
       "requestId": 1,
       "plumberId": 1,
-      "date_created": "7-101-2022 ",
+      "date_created": "Fri Nov 11 2022",
       "id": 1
     },
     {
       "requestId": 2,
       "plumberId": 2,
-      "date_created": "7-101-2022 ",
+      "date_created": "Fri Nov 11 2022",
       "id": 2
-    },
-    {
-      "requestId": 1,
-      "plumberId": 2,
-      "date_created": "7-101-2022 ",
-      "id": 3
     }
   ],
   "requests": [
@@ -35,28 +29,40 @@
       "address": "2609 Youngblood",
       "budget": "450",
       "neededBy": "2022-11-15",
-      "id": 1
+      "id": 1,
+      "complete": true
     },
     {
       "description": "Clogged washer drain.",
       "address": "20 Page Terrace",
       "budget": "300",
       "neededBy": "2022-11-19",
-      "id": 2
+      "id": 2,
+      "complete": true
     },
     {
       "description": "Toilet install.",
       "address": "987645 Big Boulevard",
       "budget": "150",
       "neededBy": "2022-11-29",
-      "id": 3
+      "id": 3,
+      "complete": false
     },
     {
       "description": "Leaky Faucet",
       "address": "60 Maywood St",
       "budget": "400",
       "neededBy": "2022-11-30",
-      "id": 4
+      "id": 4,
+      "complete": false
+    },
+    {
+      "description": "Clogged toilet",
+      "address": "234 Please work for me way",
+      "budget": "234",
+      "neededBy": "2023-02-03",
+      "complete": false,
+      "id": 5
     }
   ]
 }
